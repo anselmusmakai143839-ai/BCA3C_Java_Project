@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Practical5
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Integer: ");
+        int number = sc.nextInt();
+
+        System.out.print("Enter Decimal: ");
+        double salary = sc.nextDouble();
+
+        sc.nextLine();
+
+        System.out.print("Enter Name: ");
+        String name = sc.nextLine();
+
+        System.out.println("\nName : " + name);
+        System.out.println("Integer : " + number);
+        System.out.println("Decimal : " + salary);
+    }
+}

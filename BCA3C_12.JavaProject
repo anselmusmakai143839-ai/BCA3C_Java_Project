@@ -1,0 +1,32 @@
+interface Animal
+{
+    void eat();
+}
+
+interface Dog extends Animal
+{
+    void bark();
+}
+
+class Puppy implements Dog
+{
+    public void eat()
+    {
+        System.out.println("Puppy is eating.");
+    }
+
+    public void bark()
+    {
+        System.out.println("Puppy is barking.");
+    }
+}
+
+class Practical12
+{
+    public static void main(String args[])
+    {
+        Puppy p = new Puppy();
+        p.eat();
+        p.bark();
+    }
+}

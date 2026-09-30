@@ -1,0 +1,28 @@
+impor java.until.scanner
+
+{
+    {
+        // declare an array with 7 element
+		int scores[] = new int[7];
+		//int scores[7]={50,75,80,40,10,35,70};
+		
+		// annual value assignment
+		/*scores[0]= 10;
+		scores[1]= 30;
+		scores[2]= 35;
+		scores[3]= 40;
+		scores[4]= 50;
+		scores[5]= 70;
+		scores[6]= 75;
+		scores[7]= 80;
+		system.out.println("Manually assigned array element:");
+		for (int i = 0; i < scores.length; i++)
+		{
+		   system.out.print(scores[i] + " ");
+		   }*/
+		   
+		   // user imput value assignment
+		   Scanner scanner = new Scanner(system.in);
+		   system .out.prit("\n Enter 7 scores: ");
+		   for (int 1 = 0; i <scores.length;i++)
+		

@@ -1,0 +1,34 @@
+class loopThread exytends Tread{
+	private int iteration;
+	
+	public loopThread(int iteration) {
+		this.iteration = iteration
+	
+	}
+	
+	@override
+	public void run () {
+		for(int i= 0; i< iteration; i++){
+			try{
+				Thread.sleep(500);
+				System.out.println("current Thread: " + Thread
+				currentThread().getName());
+			{ catch (interruptedExcepton ex) {
+				System.out.println("Exception has been caught" + ex
+				);
+			}
+			System.out.println(i);
+		}
+	}
+}
+
+public class ThreadloopEx {
+	public static void main(String[] args)
+	{
+		loopThread t1 = new loopThread(5);
+		loopThread t2 = new loopThread(5);
+		
+		t1, start();
+		
+		try{
+		

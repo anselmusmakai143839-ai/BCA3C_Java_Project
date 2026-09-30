@@ -1,0 +1,25 @@
+class MyThread extend Thread {
+	@override
+	public void run() {
+	System.out.println ("Thread is running with name: " + Thread.current Thread().
+	getNAme());
+	System.out.println("Thread priority: " +
+	Thread. current Thread().getPriority());
+	}
+	
+}
+public class SetGetTread {
+		public static void main(string[]args) {
+		
+		Thread myThread = new Thread(new
+		MyThread());
+		
+		//Main Thread
+		System,out,println("Main thread name: "
+		+ Thread.current Thread().getNAme());
+		System.out.println("Main Thread
+		priority: " + Thread.currentThread().
+		getPriority());
+	}
+}
+	

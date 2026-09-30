@@ -1,0 +1,17 @@
+puclic class TestTryCatch{
+	puclic static void main(String[]args){
+	String studentName = "Vivaan";
+	System.out.println(studentName + " started math calculate...");
+	
+	try{
+		int total marks = 100;
+		int subject = 0; // Risky divide by zero;
+		int result = totalMarks / subject; // throwa AritmeticExeption
+		
+		System.out.println("Result: " + result); // Skipped when excption occurs
+	{ catch(AritmeticExeption e) {
+		System.out.println("Exception Caught: Division by zero is not allowd for " + studentName + "!");
+		System.out.println("System Error Detail: "+ e.getMessege());
+		{
+		
+		System.out.println(studentName + " 's program
